@@ -1,0 +1,168 @@
+body{
+    background:url(Net.jpg);
+    background-size: 1350px 650px;
+    background-repeat: no-repeat;
+    background-color: black;
+    color: white;
+    
+
+}
+nav
+{
+    display: flex;
+    justify-content:center ;
+    justify-content:space-around;
+}
+nav .img img{
+    width: 17%;
+    margin-top:-20px ;
+
+}
+nav.btn{
+    display:flex;
+    margin-top: 22px;
+}
+.btn .eng{
+    width:110px;
+    height:40px ;
+    background-color: black;
+    color: white;
+    font-size: 19px;
+    border: 2px solid white;
+    border-radius: 3px;
+}
+.btn .eng:hover{
+    background-color:transparent ;
+}
+.btn .sign:hover{
+    background-color:transparent ;
+}
+.btn .sign{
+    width:110px;
+    height:40px ;
+    background-color: rgb(218, 18, 18);
+    color: white;
+    font-size: 19px;
+    border-radius: 3px;
+    border:none;
+}
+.btn .eng{
+    margin-inline: 22px;
+}
+.btn .sign{
+    margin-inline: 22px;
+}
+.main{
+    text-align: center;
+}
+.main h1{
+    font-size: 60px;
+}
+.main h3{
+    font-size: 34px;
+}
+.main p{
+    font-size: 22px;
+}
+.input {
+    display: flex;
+    justify-content: center;
+}
+.input input{
+    width:400px;
+    height: 58px;
+    color: white;
+    font-size: 26px;
+    border: none;
+}
+.input button{
+    width:200px;
+    height:60px;
+    background-color: brown;
+    color: white;
+    font-size: 26px;
+    border: none;
+}
+.First{
+    display:flex;
+    justify-content:center ;
+    margin-top: 100px ;
+    padding: 36px;
+}
+.First h1{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.First p{
+    font-size: 20px;
+}
+.First img{
+width: 90%;
+height: 600px;
+margin-bottom: 20px;
+
+
+}
+.Sec{
+    display:flex;
+    justify-content:center ;
+    
+
+    padding: 36px;
+}
+.Sec h1{
+    font-size: 30px;
+  
+
+}
+.Sec p{
+    font-size: 20px;
+    margin-left: 30px;
+
+}
+.Sec img{
+width: 90%;
+height: 600px;
+margin-right: 450px;
+
+}
+.Thir{
+    display:flex;
+    justify-content:center ;
+ 
+}
+.Thir h1{
+    font-size: 30px;
+    margin-left: 10px;
+}
+.Thir p{
+    font-size: 20px;
+}
+.Thir img{
+width: 100%;
+margin-top: 30px;
+margin-left: 20px;
+
+}
+.buttons h1{
+    text-align: center;
+    margin-top: 33px;
+    font-size: 44px;
+}
+.buttons button{
+    width:600px;
+    height:60px;
+    background-color: gray;
+    color:white;
+    font-size: 25px;
+    margin-left: 26%;
+    text-align: left;
+}
+.fotter{
+    display:flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 44px;
+    border-top: 4px solid gray;
+    margin-top: 33px;
+}
